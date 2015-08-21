@@ -1,0 +1,49 @@
+body{
+	font-family:T2;
+	font-color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+
+}
+ul {
+	list-style-type: none; 
+	padding: 0; 
+	display:inline;
+	float:left;
+	margin:2em;
+
+}
+ul:hover{
+	border-bottom:black .2em solid;
+
+}
+
+
+.title_left{
+	z-index:1;
+	position:fixed;
+	top: 1em;
+	left: 1em;
+	font-size:1em;
+	float:right;
+}
+.title{
+	height:20px;
+	float:right;
+	text-align:right;
+	margin-top:10em;
+	width:100%;
+	height:5em;
+}
+.title_right{
+	float:right;
+}
+.box01{
+	z-index:2;
+	float:left;
+	position:absolute;
+	color:gray;
+}
