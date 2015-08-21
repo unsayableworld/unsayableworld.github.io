@@ -23,6 +23,7 @@ ul:hover{
 
 
 .title_left{
+	width:10%;
 	z-index:1;
 	position:fixed;
 	top: 1em;
