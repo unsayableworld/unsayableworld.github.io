@@ -1625,10 +1625,10 @@ pre code {
   margin-left: -15px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
+  position: static;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 50px;
   margin-bottom:1em;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -1789,7 +1789,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
+    float: right;
   }
   .col-sm-12 {
     width: 100%;
@@ -3453,7 +3453,7 @@ tbody.collapse.in {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 900;
   display: none;
   float: left;
   min-width: 160px;
@@ -3545,7 +3545,7 @@ tbody.collapse.in {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 990;
+  z-index: 890;
 }
 .pull-right > .dropdown-menu {
   right: 0;
@@ -4165,7 +4165,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-static-top {
-  z-index: 1000;
+  z-index: 900;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
@@ -4178,7 +4178,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 930;
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
@@ -5746,7 +5746,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 950;
   display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -5794,7 +5794,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 940;
   background-color: #000;
 }
 .modal-backdrop.fade {
@@ -5863,7 +5863,7 @@ button.close {
 }
 .tooltip {
   position: absolute;
-  z-index: 1070;
+  z-index: 970;
   display: block;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family:sans-serif;
@@ -5969,7 +5969,7 @@ button.close {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1060;
+  z-index: 960;
   display: none;
   max-width: 276px;
   padding: 1px;
