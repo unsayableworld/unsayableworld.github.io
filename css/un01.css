@@ -18,7 +18,7 @@ ul {
 
 }
 ul:hover{
-	border-bottom:black .2em solid;
+	border-bottom:black .1em solid;
 	z-index:5;
 
 
@@ -46,7 +46,7 @@ ul:hover{
 .title_right{
 	float:right;
 	z-index:1;
-	
+
 
 }
 .box01{
