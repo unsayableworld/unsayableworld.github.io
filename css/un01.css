@@ -1,11 +1,13 @@
 body{
-	font-family:T2;
+	font-family: Font02, helvetica, "LiHei Pro","微軟中黑體", sans-serif;
 	font-color:black;
 }
 a:visited{
 	color:black;
 }
-
+.Font02{
+	font-family: T2;
+}
 ul {
 	list-style-type: none; 
 	padding: 0; 
