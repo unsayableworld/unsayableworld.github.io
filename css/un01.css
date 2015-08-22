@@ -2,6 +2,8 @@ body{
 	font-family: Font02, helvetica, "LiHei Pro","微軟中黑體", sans-serif;
 	font-weight:bold;
 	font-color:#586175;
+	font-kerning: auto;
+	letter-spacing:-.5px;
 }
 a:visited{
 	color:#586175;
@@ -45,9 +47,14 @@ ul:hover{
 }
 
 .box01{
+	width:50px;
+	height:500px;
 	z-index:0;
 	float:left;
 	position:absolute;
 	color:gray;
-	font-size:.5em;
+	font-size:.3em;
+	letter-spacing:-1px;
+	word-break: break-all;
+
 }
