@@ -4,14 +4,14 @@ body {
 	font-color:#586175;
 	font-kerning: auto;
 	letter-spacing:-.5px;
-		-webkit-font-smoothing: antialiased;
-	-webkit-animation: opacity_01 3s ease 0s 1 alternate;
+		
 }
 
 p {
 	float:right;
 	display:inline;
 	text-align:right;
+	margin:1em;
 
 }
 
