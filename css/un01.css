@@ -1,9 +1,10 @@
 body{
 	font-family: Font02, helvetica, "LiHei Pro","微軟中黑體", sans-serif;
-	font-color:black;
+	font-weight:bold;
+	font-color:#586175;
 }
 a:visited{
-	color:black;
+	color:#586175;
 }
 .Font02{
 	font-family: T2;
@@ -48,4 +49,5 @@ ul:hover{
 	float:left;
 	position:absolute;
 	color:gray;
+	font-size:.5em;
 }
