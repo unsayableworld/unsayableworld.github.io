@@ -40,18 +40,23 @@ a:visited {
 }
 a {
 	color:black;
-	padding:1em;
 	}
-@media (min-width: 720px){
+@media (min-width: 1024px){
 	a:hover 
 	{
-		text-decoration:none;
 		color:gray;
-		padding:1em;
 		-webkit-animation: opacity_02 1s ease 0s 1 alternate;
 	}
 	.img-responsive:hover{
-	-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
+		-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
+	}
+
+	.boxt:hover{
+		color:black;
+	}
+	ul:hover{
+	background-color:black;
+	color:white;
 }
 }
 
@@ -67,10 +72,7 @@ ul {
 	display: inline;
 	float: left;
 }
-ul:hover{
-	background-color:black;
-	color:white;
-}
+
 
 
 @media (min-width: 900px){
@@ -91,6 +93,8 @@ ul:hover{
 	margin-bottom:10em;
 	padding:1em;
 	float:right;
+
+	word-break: break-all;
 }
 
 .box01 {
@@ -99,10 +103,17 @@ ul:hover{
 	z-index: 0;
 	float: left;
 	position: absolute;
-	color: black;
 	font-size: 1em;
 	letter-spacing: -1px;
 	word-break: break-all;
+}
+.boxt{
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	font-weight: bold;	
+	overflow:hidden;
+	color:white;
 }
 
 .box02 {
