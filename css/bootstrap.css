@@ -5,11 +5,7 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-html {
-  font-family:  helvetica, "LiHei Pro","微軟中黑體", sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
+
 body {
   margin: 0;
 
@@ -1138,6 +1134,9 @@ img {
   max-width: 100%;
   height: auto;
   width:100%
+}
+.img-responsive:hover{
+	-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
 }
 
 
