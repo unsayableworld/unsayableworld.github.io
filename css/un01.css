@@ -42,13 +42,19 @@ a {
 	color:black;
 	padding:1em;
 	}
-a:hover 
+@media Screen{
+	a:hover 
 	{
 		text-decoration:none;
 		color:gray;
 		padding:1em;
 		-webkit-animation: opacity_02 1s ease 0s 1 alternate;
 	}
+	.img-responsive:hover{
+	-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
+}
+}
+
 
 
 ul {

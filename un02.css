@@ -1,0 +1,7 @@
+a:hover 
+	{
+		text-decoration:none;
+		color:gray;
+		padding:1em;
+		-webkit-animation: opacity_02 1s ease 0s 1 alternate;
+	}
