@@ -114,3 +114,9 @@ ul:hover {
   	  to { opacity: 1; }
 }
 
+var myLinks = document.getElementsByTagName('a');
+for(var i = 0; i < myLinks.length; i++){
+　　myLinks.addEventListener(’touchstart’, function(){this.className = “hover”;}, false);
+　　myLinks.addEventListener(’touchend’, function(){this.className = “”;}, false);
+}
+
