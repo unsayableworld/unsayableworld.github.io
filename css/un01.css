@@ -26,9 +26,8 @@ body {
 }
 .title_l{
 	float: right;
-	margin: 0;
-	padding: 0;
-	font-weight: gray;
+	font-size: .5em;
+	margin-top: -1em;
 	font-weight: bold;
 
 }
@@ -56,6 +55,7 @@ a {
 	ul:hover{
 		background-color:black;
 		color:white;
+		-webkit-animation: opacity_02 .5s ease 0s 1 alternate;
 	}
 	.logo {
 		z-index:1;
@@ -82,22 +82,21 @@ a {
 
 @media (max-width: 1023px){
 	ul{
+		font-size: .5em;
 		float:left;
 		width:;
-		padding: .8em;
+		padding: .5em;
 		padding-right: 1em;
 		padding-left: 1em;
 		margin: .2em;
-   		margin-right: auto;
-    	margin-left: auto;
     	//border:black 1px solid;
 		text-align:right;
 	}
 
 	div.menu {
-		margin-bottom: 0;
-		margin-right:-1em;
-		margin-left:0em;
+		padding-top:2em;
+		padding-bottom:-2em;
+		margin: 2em -1em 0em 0;
 		padding:-2em;
 	}
 	div.col-sm-5, .col-sm-8, .col-sm-10 {

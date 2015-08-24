@@ -1132,7 +1132,6 @@ img {
 .carousel-inner > .item > a > img {
   max-width: 100%;
   height: auto;
-
 }
 
 
@@ -1629,7 +1628,7 @@ pre code {
   margin-left: 30px;
   margin-right:-20px;
   margin-top:1em;
-  margin-bottom:1em; 
+  margin-bottom: 0em; 
 }
 
 .col-sm-5, .col-sm-8{
