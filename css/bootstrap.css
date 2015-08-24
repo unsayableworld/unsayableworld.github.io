@@ -1133,7 +1133,8 @@ img {
   max-width: 100%;
   height: auto;
   width:100%;
-  
+  margin-right:500em;
+
 }
 //.img-responsive:hover{
 	-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
