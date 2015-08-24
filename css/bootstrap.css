@@ -1130,10 +1130,10 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
   max-width: 100%;
   height: auto;
-  width:100%
+  width:100%;
+  
 }
 //.img-responsive:hover{
 	-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;

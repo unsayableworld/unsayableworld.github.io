@@ -51,39 +51,58 @@ a {
 		-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
 	}
 
-	.boxt:hover{
+	p.boxt{
 		color:black;
+		visibility:visible;
 	}
 	ul:hover{
-	background-color:black;
-	color:white;
+		background-color:black;
+		color:white;
+	}
+	.logo {
+		z-index:1;
+		position:fixed;
+		top: 1em;
+		left: 1em;
+		float:right;
+
+	}
+	ul {
+		text-align:right;
+		font-size: .9em;
+		list-style-type: none; 
+		padding: 1em;
+		padding-top: .5em; 
+		padding-bottom: .5em;
+		margin: .2em;
+		float: left;
+
+	}
 }
+
+@media (max-width: 1023px){
+	ul{
+		float:left;
+		width:;
+		padding: .8em;
+		padding-left:2em;
+		padding-right:2em;
+		//padding-left:10em;
+		margin: .2em;
+   		margin-right: auto;
+    	margin-left: auto;
+    	//border:black 1px solid;
+		text-align:right;
+
+	}
+	div.menu{
+		margin-bottom: 0;
+	}
+
 }
 
+	
 
-
-ul {
-	font-size: .9em;
-	list-style-type: none; 
-	padding: 1em;
-	padding-top: .5em; 
-	padding-bottom: .5em;
-	margin: .2em;
-	display: inline;
-	float: left;
-}
-
-
-
-@media (min-width: 900px){
-.logo {
-	z-index:1;
-	position:fixed;
-	top: 1em;
-	left: 1em;
-	font-size:1em;
-	float:right;
-}}
 
 
 
@@ -93,12 +112,15 @@ ul {
 	margin-bottom:10em;
 	padding:1em;
 	float:right;
-
 	word-break: break-all;
+
+	margin-top:2em;
 }
 
 .box01 {
-	width: 80px;
+	padding: 1em;
+	padding-right: 0;
+	width: 175px;
 	height: 500px;
 	z-index: 0;
 	float: left;
@@ -113,7 +135,11 @@ ul {
 	font-size: .9em;
 	font-weight: bold;	
 	overflow:hidden;
-	color:white;
+	color:black;
+	word-break: break-all;
+	visibility:hidden;
+	font-weight: light;
+	letter-spacing: .2em;
 }
 
 .box02 {
