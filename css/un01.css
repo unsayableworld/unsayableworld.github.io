@@ -1,39 +1,61 @@
 body {
-	font-family: helvetica, "LiHei Pro","微軟中黑體", sans-serif;
-	font-weight:bold;
+	font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif", "LiHei Pro","微軟中黑體", sans-serif;
 	font-color:#586175;
-	font-kerning: auto;
-	letter-spacing:-.5px;
+	letter-spacing: .05em;
+
 }
 
-	
-p {
-	float:left;
-	display:inline;
-	margin:1em;
-	font-size:.5em;
+.title_box{
+	margin: .5em;
+}
+.title{
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	font-weight: bold;	
+}
+
+.subtitle {
+	margin: 0;
+	margin-top:-1.5em;
+	margin-bottom: 2em;
+	font-size:.8em;
+	font-weight: normal;
+	color: gray;
+}
+.title_l{
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-top: -3em;
+	font-weight: gray;
+	font-weight: bold;
 
 }
 
 a:visited {
-	color:#586175;
+	color:black;
 }
 
 ul {
 	list-style-type: none; 
-	padding: 0; 
-	display:inline;
-	float:left;
-	margin:1em;
-	position:static;
+	padding: 1em;
+	padding-top: .5em; 
+	padding-bottom: .5em;
+	margin: .2em;
+	display: inline;
+	float: left;
+	position: static;
 }
 
 ul:hover {
-	border-bottom:black .1em solid;
+	background-color:black;
+	color: white;
+	-webkit-animation: opacity_01 1s ease 0s 1 alternate;
 }
 
 @media (min-width: 900px){
-.title_left {
+.logo {
 	z-index:1;
 	position:fixed;
 	top: 1em;
@@ -42,43 +64,38 @@ ul:hover {
 	float:right;
 }}
 
-.title {
-	height:20px;
-	float:right;
-	text-align:right;
-	margin-top:10em;
-	width:100%;
-	height:5em;
-}
 
-.title_right {
-	margin-top:10em;
+
+
+.menu {
+	font-weight:bold;
+	margin-bottom:10em;
 	padding:1em;
 	float:right;
 }
 
 .box01 {
-	width:50px;
-	height:500px;
-	z-index:0;
-	float:left;
-	position:absolute;
-	color:gray;
-	font-size:.3em;
-	letter-spacing:-1px;
+	width: 80px;
+	height: 500px;
+	z-index: 0;
+	float: left;
+	position: absolute;
+	color: black;
+	font-size: 1em;
+	letter-spacing: -1px;
 	word-break: break-all;
 }
 
 .box02 {
-	margin:3em;
-	margin-top:20em;
-	width:350px;
-	z-index:0;
-	float:left;
-	position:absolute;
-	color:gray;
-	font-size:.2em;
-	letter-spacing:-1px;
+	margin: 3em;
+	margin-top: 20em;
+	width: 350px;
+	z-index: 0;
+	float: left;
+	position: absolute;
+	color: gray;
+	font-size: .2em;
+	letter-spacing: -1px;
 	word-break: break-all;
 
 }
