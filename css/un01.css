@@ -1,5 +1,5 @@
 body {
-	font-family: "Myriad Set Pro","Lucida Grande", "LiHei Pro","微軟中黑體", sans-serif;
+	font-family: "Myriad Set Pro","Lucida Grande", ,"LiHei Pro","微軟中黑體", sans-serif;
 	//font-familly:"Lucida Grande", "Lucida Sans Unicode", "STHeitiTC-Light", "Helvetica","Arial","Verdana","sans-serif";
 	font-color:#586175;
 	letter-spacing: .05em;
@@ -12,25 +12,34 @@ body {
 .title{
 	margin: 0;
 	padding: 0;
-	font-size: .9em;
+	font-size: 12px;
 	font-weight: bold;	
+	letter-spacing: .2em;
 }
 
 .subtitle {
 	margin: 0;
 	margin-top:-1.5em;
 	margin-bottom: 2em;
-	font-size:.6em;
-	font-weight: normal;
+	font-size: 10px;
+	font-weight: light;
 	color: gray;
 }
 .title_l{
 	float: right;
-	font-size: .5em;
+	font-size: 10px;
 	margin-top: -1em;
 	font-weight: bold;
 
 }
+
+.article{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: light;	
+}
+
 a:visited {
 	text-decoration:none;
 	color:black;
@@ -43,9 +52,17 @@ a {
 	{
 		color:gray;
 		-webkit-animation: opacity_02 1s ease 0s 1 alternate;
+		-moz-animation: opacity_02 1s ease 0s 1 alternate;
+		-o-animation: opacity_02 1s ease 0s 1 alternate;
+		animation: opacity_02 1s ease 0s 1 alternate;
+
 	}
 	.img-responsive:hover{
 		-webkit-animation: opacity_02 1.5s ease 0s 1 alternate;
+		-moz-animation: opacity_02 1.5s ease 0s 1 alternate;
+		-o-animation: opacity_02 1.5s ease 0s 1 alternate;
+		animation: opacity_02 1.5s ease 0s 1 alternate;
+
 	}
 
 	p.boxt{
@@ -56,6 +73,9 @@ a {
 		background-color:black;
 		color:white;
 		-webkit-animation: opacity_02 .5s ease 0s 1 alternate;
+		-moz-animation: opacity_02 .5s ease 0s 1 alternate;
+		-o-animation: opacity_02 .5s ease 0s 1 alternate;
+		animation: opacity_02 .5s ease 0s 1 alternate;
 	}
 	.logo {
 		z-index:1;
@@ -66,7 +86,7 @@ a {
 	}
 	ul {
 		text-align:right;
-		font-size: .9em;
+		font-size: 12px;
 		list-style-type: none; 
 		padding: 1em;
 		padding-top: .5em; 
@@ -82,7 +102,7 @@ a {
 
 @media (max-width: 1023px){
 	ul{
-		font-size: .5em;
+		font-size: 12px;
 		float:left;
 		width:;
 		padding: .5em;
@@ -129,7 +149,7 @@ a {
 	z-index: 0;
 	float: left;
 	position: absolute;
-	font-size: 1em;
+	font-size: 12px;
 	letter-spacing: -1px;
 	word-break: break-all;
 	visibility:hidden;
@@ -137,7 +157,7 @@ a {
 .boxt{
 	margin: 0;
 	padding: 0;
-	font-size: .9em;
+	font-size: 12px;
 	font-weight: bold;	
 	overflow:hidden;
 	color:black;
@@ -155,20 +175,47 @@ a {
 	float: left;
 	position: absolute;
 	color: gray;
-	font-size: .2em;
+	font-size: 12px;
 	letter-spacing: -1px;
 	word-break: break-all;
 
 }
 
-
-@-webkit-keyframes opacity_01
-{
+@keyframes opacity_01{
     0% { opacity: 0 ; }
   100% { opacity: 1; }
 }
-@-webkit-keyframes opacity_02
-{
+@keyframes opacity_02{
+    0% { opacity: .7 ; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes opacity_01{
+    0% { opacity: 0 ; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes opacity_02{
+    0% { opacity: .7 ; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes opacity_01{
+    0% { opacity: 0 ; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes opacity_02{
+    from { opacity: .7 ; }
+  	  to { opacity: 1; }
+}
+
+
+@-o-keyframes opacity_01{
+    0% { opacity: 0 ; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes opacity_02{
     from { opacity: .7 ; }
   	  to { opacity: 1; }
 }
