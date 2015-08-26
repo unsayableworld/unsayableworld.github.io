@@ -18,8 +18,14 @@ body {
 
 .subtitle {
 	margin: 0;
-	margin-top:-1.5em;
-	margin-bottom: 2em;
+	margin-top:-18px;
+	font-size: 10px;
+	font-weight: light;
+	color: gray;
+}
+.sssubtitle {
+	margin: 0;
+	margin-top:0px;
 	font-size: 10px;
 	font-weight: light;
 	color: gray;

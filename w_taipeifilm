@@ -19,7 +19,7 @@
 			})</script>
 
 	</head>
-		
+
 	<body>
 		<div class="logo">
 			<a href="index.html">
@@ -30,47 +30,38 @@
 		<div class="container">
 			<div class="menu">
 
-				<a href="maybe.html">
+				<a href="w_outstanding.html">
 					<ul>PREV</ul></a>
 				<a href="index.html">	
 					<ul style="background-color:black; color:white;">
 					BACK</ul></a>
 
-				<a href="w_taipeifilm.html">
+				<a href="w_outstanding.html">
 					<ul>NEXT</ul></a>
 			</div>
 		</div>
 		
 		<div class ="box01">
-			<p class="boxt">N<br /><br />National <br />Taiwan <br />University <br /><br />of<br />Outstanding <br />College <br />Youth<br /><br /><br />>>>>><br /><br /><br />>>>><br />MMM<br /><br />MMMMed<br /><br />al
+			<p class="boxt">May<br />be<br /><br />Mayb<br />　　　e<br /><br /><br />
+							I <br />Jus<br />　　t<br /><br />　　nnnn<br /><br /><br /><br />SSSS<br />AVE<br /><br /><br /><br />MMMM　MM<br />M　MMM
 		</div>
 		</div>
 		<div class="container">
 			<div class="col-sm-8">
-				<img class="img-responsive" src="img/outstanding/P01.jpg"><br>
-				<img class="img-responsive" src="img/outstanding/00.jpg"><br>
-				<img class="img-responsive" src="img/outstanding/01.jpg"><br>
-				<img class="img-responsive" src="img/outstanding/02.jpg"><br>
-				<img class="img-responsive" src="img/outstanding/04.jpg"><br>
-				<img class="img-responsive" src="img/outstanding/03.jpg">
-
+				<img class="img-responsive" src="img/taipeifilm/T00"><br>
+				<img class="img-responsive" src="img/taipeifilm/T01"><br>
+				<img class="img-responsive" src="img/taipeifilm/T02"><br>
+				<img class="img-responsive" src="img/taipeifilm/T03"><br>
+				<img class="img-responsive" src="img/taipeifilm/T04"><br>
+				<p class="article">
+				慶幸我們從前能夠勇敢，<br />祝我們未來也能夠勇敢。</p>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<p class="subtitle">Copyright © 2015 不可言說 Unsayableworld Inc. All rights reserved.</p>
+				<p class="subtitle">請與我聯絡 unsayableworld@gmail.com</p>
 			</div>
-		</div>
-
-		<div class="container">
-			<div class="col-sm-8">
-						
-			
-					<br><br><br><br><br><br><br><br><br>
-					<p class="sssubtitle">閒聊或工作，請與我聯絡 none@unsayable01.com，或洽粉絲專頁</p>
-			<a class="ul" href="https://www.facebook.com/Unsayable.Words">
-			<p class="sssubtitle">Copyright © 2015 不可言說 Unsayableworld Inc. All rights reserved.</p><br><br>
-		</div>
-
-
 		</div>
 	</body>
 
 
-
+	
 	</html>
